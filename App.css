@@ -36,10 +36,7 @@
       transform: rotate(360deg);
     }
   }
-
-  .nftapp {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(41,25,93,1) 49%, rgba(0,212,255,1) 100%);
-  }
+  
   
   @-webkit-keyframes AnimationName {
       0%{background-position:0% 50%}
@@ -58,8 +55,9 @@
   }
   
   .nftapp {
-    background: linear-gradient(270deg, #2aaacb, #2acb6c);
-    background-size: 400% 400%;
+    background-color: #00DBDE;
+background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
   
     -webkit-animation: AnimationName 30s ease infinite;
     -moz-animation: AnimationName 30s ease infinite;
